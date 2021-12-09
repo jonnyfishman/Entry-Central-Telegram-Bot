@@ -4,14 +4,7 @@
   <p align="center">
     Interested in a sporting event hosted on Entry Central but want to leave signing up to the last minute? Use this Bot to get regular updates about the number of places still available.
     <br />
-    <a href="https://github.com/jonnyfishman/Entry-Central-Telegram-Bot"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/jonnyfishman/Entry-Central-Telegram-Bot">View Demo</a>
-    ·
-    <a href="https://github.com/jonnyfishman/Entry-Central-Telegram-Bot">Report Bug</a>
-    ·
-    <a href="https://github.com/jonnyfishman/Entry-Central-Telegram-Bot">Request Feature</a>
+
   </p>
 </div>
 
@@ -23,7 +16,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
