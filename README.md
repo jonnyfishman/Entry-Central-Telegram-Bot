@@ -69,12 +69,12 @@ The script is currently designed just to get information from one website [Entry
    ```sh
    mv config.template.php config.php
    ```
-3. Edit config.php to include the information from step 2 and 3.
+3. Edit `config.php` to include the information from step 2 and 3.
    ```php
    $Telegram_token = "ENTER LONG TOKEN";
    $Telegram_chat_id = "ENTER CHAT ID, MAKE SURE TO INCLUDE THE MINUS SIGN";
    ```
-4. Edit index.php with the event details. It is possible to include multiple events. Each event needs a name (as a string) followed by an id (as a number). Place a comma after each id.
+4. Edit `index.php` with the event details. It is possible to include multiple events. Each event needs a name (as a string) followed by an id (as a number). Place a comma after each id.
    ```php
    $events = array(
         'Event A' => 123456,               
