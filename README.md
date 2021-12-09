@@ -63,7 +63,7 @@ The script is currently designed just to get information from one website [Entry
 
 3. Forward the message to @getidsbot and follow the instructions to get your chat id details ([info here](https://github.com/wjclub/telegram-bot-getids))
 
-<p align="center">![Start @getidsbot](/assets/images/chat_id.jpg)</p>
+![Start @getidsbot](/assets/images/chat_id.jpg)
 
 4. Rename config file
    ```sh
