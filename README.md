@@ -74,13 +74,11 @@ The script is currently designed just to get information from one website [Entry
    $Telegram_token = "ENTER LONG TOKEN";
    $Telegram_chat_id = "ENTER CHAT ID, MAKE SURE TO INCLUDE THE MINUS SIGN";
    ```
-4. Edit index.php with the event details. It is possible to include multiple events.
+4. Edit index.php with the event details. It is possible to include multiple events. Each event needs a name (as a string) followed by an id (as a number). Place a comma after each id.
    ```php
    $events = array(
-        'Nickname A'=>        // Choose a name for the entry to appear as in your Telegram notification
-        123456,               // This is the can be found under the relevant url after /event/XXXXXX
-        'Nickname B'=>
-        654321,
+        'Event A' => 123456,               
+        'Event B' => 654321,
    );
    ```
 5. Test your information using the command line. Each event will return 'Successfully sent' or a relevant error message.
