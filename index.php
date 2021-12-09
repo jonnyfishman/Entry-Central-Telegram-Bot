@@ -45,9 +45,10 @@ class Check_Entry {
     $status = $this->getStatus($content);
     $closing_date = $this->getClosingDate($content);
 
-    $data = 'There are <b>' . $spaces . '</b> spaces left in the <a href="' . $this->url . 'event/' . $event_id . '">' . $event_nickname . '</a>. The event is currently <i>' . $status . '</i> and the closing date is <i>' . $closing_date . '</i>';
-
-    $safe_filename = preg_filter('/[^A-Za-z0-9._-]/', '_', $event_nickname).'.json';
+        $safe_filename = preg_filter('/[^A-Za-z0-9._-]/', '_', $event_nickname).'.json';
+        $safe_nickname = preg_filter('/[^A-Za-z0-9._-]/', ' ', $event_nickname);
+        
+    $data = 'There are <b>' . $spaces . '</b> spaces left in the <a href="' . $this->url . 'event/' . $event_id . '">' . $safe_nickname . '</a>. The event is currently <i>' . $status . '</i> and the closing date is <i>' . $closing_date . '</i>';
 
     $previous_send = file_exists($safe_filename)?json_decode(file_get_contents(        $safe_filename)):json_decode('{"spaces":"null"}');
 
