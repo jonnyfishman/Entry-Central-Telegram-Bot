@@ -1,4 +1,5 @@
 
+<div id="top"></div>
 <h3 align="center">Entry Central Telegram Bot</h3>
 
   <p align="center">
